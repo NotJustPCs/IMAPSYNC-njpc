@@ -1,0 +1,8 @@
+<FilesMatch "\.(php|tpl|txt)$">
+Order Deny,Allow
+Deny from all
+
+# DYNDNS your.ddns.address
+Allow from 1.1.1.1
+
+</FilesMatch>
